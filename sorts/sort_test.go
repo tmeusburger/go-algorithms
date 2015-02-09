@@ -8,7 +8,7 @@ import (
 
 type intSortingFunction func([]int) []int
 
-func testIntSort(t *testing.T, sf intSortingFunction) {
+func testIntegerSortFunction(t *testing.T, sf intSortingFunction) {
 	sorted := []int{1, 2, 3, 4, 5, 6, 7, 8}
 
 	Convey("When provided an unorder slice", t, func() {

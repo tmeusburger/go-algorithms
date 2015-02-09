@@ -5,5 +5,5 @@ import (
 )
 
 func TestMergeSort(t *testing.T) {
-	testIntSort(t, MergeSort)
+	testIntegerSortFunction(t, MergeSort)
 }

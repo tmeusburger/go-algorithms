@@ -5,5 +5,5 @@ import (
 )
 
 func TestInsertionSort(t *testing.T) {
-	testIntSort(t, InsertionSort)
+	testIntegerSortFunction(t, InsertionSort)
 }

@@ -6,5 +6,5 @@ import (
 )
 
 func TestBubbleSort(t *testing.T) {
-	testIntSort(t, BubbleSort)
+	testIntegerSortFunction(t, BubbleSort)
 }
